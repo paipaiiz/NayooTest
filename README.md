@@ -1,2 +1,3 @@
 # Nayoo
- nayoo
+ cd nayoo-test
+ npm run serve
