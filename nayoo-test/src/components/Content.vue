@@ -132,7 +132,7 @@
               <div class="col-6 col-lg-3 grid-margin stretch-card mb-2">
                 <div class="card shadow" style="width: auto;">
                     <img class="card-img-top" src="https://d35q2c276lvyi.cloudfront.net/Vz2XNIXU-SEo6aEL0T72YDmqq2YXfZ5sQqT_Z_t0UmA/rs:fill:1920:0:1/g:sm/wm:0.5:we:20:0:0.2/aHR0cHM6Ly9hcGkubmF5b28uY28vYXR0YWNobWVudHMvcHJvamVjdHMvMTc4L2NvdmVyL3Z4bXdzN0dVR1lWVXV4eHZoM3A3cWx5MDBuVzY4YWhHb1d0d21GM3UuanBlZw" alt="Card image cap">
-                    <div class="top-left"><i class="bi bi-geo-alt-fill"></i> Lorem Ipsum is simply...</div>
+                    <div class="top-left"><h6 align="left" class="location">&nbsp;<i class="bi bi-geo-alt-fill"></i> Lorem Ipsum is simply...</h6></div>
                     <div class="top-right">
                       <span class="input-group-text rounded-left rounded-circle" id="basic-addon1">
                               <i class="bi bi-suit-heart justify-content-center"></i>
@@ -151,7 +151,7 @@
               <div class="col-6 col-lg-3 grid-margin stretch-card mb-2">
                 <div class="card shadow" style="width: auto;">
                     <img class="card-img-top" src="https://d35q2c276lvyi.cloudfront.net/Vz2XNIXU-SEo6aEL0T72YDmqq2YXfZ5sQqT_Z_t0UmA/rs:fill:1920:0:1/g:sm/wm:0.5:we:20:0:0.2/aHR0cHM6Ly9hcGkubmF5b28uY28vYXR0YWNobWVudHMvcHJvamVjdHMvMTc4L2NvdmVyL3Z4bXdzN0dVR1lWVXV4eHZoM3A3cWx5MDBuVzY4YWhHb1d0d21GM3UuanBlZw" alt="Card image cap">
-                    <div class="top-left"><i class="bi bi-geo-alt-fill"></i> Lorem Ipsum is simply...</div>
+                    <div class="top-left"><h6 align="left" class="location">&nbsp;<i class="bi bi-geo-alt-fill"></i> Lorem Ipsum is simply...</h6></div>
                     <div class="top-right">
                       <span class="input-group-text rounded-left rounded-circle" id="basic-addon1">
                               <i class="bi bi-suit-heart justify-content-center"></i>
@@ -170,7 +170,7 @@
               <div class="col-6 col-lg-3 grid-margin stretch-card mb-2">
                 <div class="card shadow" style="width: auto;">
                     <img class="card-img-top" src="https://d35q2c276lvyi.cloudfront.net/Vz2XNIXU-SEo6aEL0T72YDmqq2YXfZ5sQqT_Z_t0UmA/rs:fill:1920:0:1/g:sm/wm:0.5:we:20:0:0.2/aHR0cHM6Ly9hcGkubmF5b28uY28vYXR0YWNobWVudHMvcHJvamVjdHMvMTc4L2NvdmVyL3Z4bXdzN0dVR1lWVXV4eHZoM3A3cWx5MDBuVzY4YWhHb1d0d21GM3UuanBlZw" alt="Card image cap">
-                    <div class="top-left"><i class="bi bi-geo-alt-fill"></i> Lorem Ipsum is simply...</div>
+                    <div class="top-left"><h6 align="left" class="location">&nbsp;<i class="bi bi-geo-alt-fill"></i> Lorem Ipsum is simply...</h6></div>
                     <div class="top-right">
                       <span class="input-group-text rounded-left rounded-circle" id="basic-addon1">
                               <i class="bi bi-suit-heart justify-content-center"></i>
@@ -189,7 +189,7 @@
               <div class="col-6 col-lg-3 grid-margin stretch-card mb-2">
                 <div class="card shadow" style="width: auto;">
                     <img class="card-img-top" src="https://d35q2c276lvyi.cloudfront.net/Vz2XNIXU-SEo6aEL0T72YDmqq2YXfZ5sQqT_Z_t0UmA/rs:fill:1920:0:1/g:sm/wm:0.5:we:20:0:0.2/aHR0cHM6Ly9hcGkubmF5b28uY28vYXR0YWNobWVudHMvcHJvamVjdHMvMTc4L2NvdmVyL3Z4bXdzN0dVR1lWVXV4eHZoM3A3cWx5MDBuVzY4YWhHb1d0d21GM3UuanBlZw" alt="Card image cap">
-                    <div class="top-left"><i class="bi bi-geo-alt-fill"></i> Lorem Ipsum is simply...</div>
+                    <div class="top-left"><h6 align="left" class="location">&nbsp;<i class="bi bi-geo-alt-fill"></i> Lorem Ipsum is simply...</h6></div>
                     <div class="top-right">
                       <span class="input-group-text rounded-left rounded-circle" id="basic-addon1">
                               <i class="bi bi-suit-heart justify-content-center"></i>
@@ -337,9 +337,11 @@ a {
 /* Top left text */
 .top-left {
   position: absolute;
-  top: 155px;
-  left: 8px;
+  top: 154px;
+  left: 0px;
   color: white;
+  background: linear-gradient(transparent, #E5E5E5E3);
+  width: 90%;
 }
 
 /* Top right text */
