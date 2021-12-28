@@ -412,4 +412,8 @@ a {
   border-radius: 50%;
   top: 140px;
 }
+
+.location {
+  color: darkgrey;
+}
 </style>

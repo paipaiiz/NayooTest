@@ -14,19 +14,19 @@
                           <input type="search" class="form-control rounded-right fluid" placeholder="ค้นหา" aria-label="Input group example" aria-describedby="basic-addon1" size="100" style="padding: 10px:">
                       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <li class="nav-item">
-                      <a class="nav-link text-dark mx-4" href="#">หน้าแรก</a>
+                      <a class="nav-link text-dark mx-4 weight" href="#">หน้าแรก</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-dark mx-4" href="#">เกี่ยวกับ</a>
+                      <a class="nav-link text-dark mx-4 weight" href="#">เกี่ยวกับ</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-dark" href="#">ติดต่อ</a>
+                      <a class="nav-link text-dark weight" href="#">ติดต่อ</a>
                     </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <li class="nav-item">
-                      <button type="button" class="btn btn-secondary btn-sm text-dark">Register</button>
+                      <button type="button" class="btn btn-secondary btn-sm text-dark weight">Register</button>
                     </li>
                     <li class="nav-item">
-                      <button type="button" class="btn btn-outline-dark btn-sm">Sign in</button>
+                      <button type="button" class="btn btn-outline-dark btn-sm weight">Sign in</button>
                     </li>
         </ul>
     </nav>
@@ -69,5 +69,9 @@ span {
 .btn-secondary {
   background-color: #E5E5E5;
   border: none;
+}
+
+.weight {
+  font-weight: 700;
 }
 </style>
