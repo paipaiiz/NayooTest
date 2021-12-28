@@ -414,6 +414,6 @@ a {
 }
 
 .location {
-  color: darkgrey;
+  color: whitesmoke;
 }
 </style>
