@@ -1,3 +1,3 @@
-# Nayoo
- cd nayoo-test
- npm run serve
+# รันโปรเจ็ค
+ - cd nayoo-test
+ - npm run serve
