@@ -44,10 +44,10 @@
 
       <div class="container">
           <br>
-          <p class="h4">ชื่อหน้าเว็บไซต์</p>
+          <p class="h5">ชื่อหน้าเว็บไซต์</p>
           <br>
         <!-- Carousel -->
-            <div id="demo" class="carousel slide shadow" data-bs-ride="carousel">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
             <!-- Indicators/dots -->
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -381,5 +381,33 @@ a {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 5px; /* Some padding */
+}
+
+.carousel-indicators {
+  top: 100%;
+  background-color: #C4C4C4;
+}
+
+.carousel-indicators .active {
+  top: 100%;
+  opacity: 1;
+  background-color: #00AEEF;
+}
+
+.carousel-control-prev {
+  left: 5px;
+  background-color: gray;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  top: 140px;
+}
+.carousel-control-next {
+  right: 5px;
+  background-color: gray;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  top: 140px;
 }
 </style>
